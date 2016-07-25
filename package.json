@@ -2,7 +2,7 @@
   "name": "the-skipper",
   "version": "0.0.1",
   "description": "Skipper will help you to skip/drop tasks that old and no longer expected to be performed.",
-  "main": "lib/the-skipper.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "babel --presets es2015 -d lib/ src/",
     "postinstall": "npm run build"
@@ -20,7 +20,7 @@
     "url": "https://github.com/vadimmarkelov/skipper/issues"
   },
   "homepage": "https://github.com/vadimmarkelov/skipper#readme",
-  "devDependencies": {
+  "dependencies": {
     "babel-cli": "^6.11.4",
     "babel-preset-es2015": "^6.9.0"
   }
