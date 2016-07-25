@@ -80,3 +80,12 @@ const mySkipperForServiceB = new Skipper();
           );
       }
 ```
+
+## Installation
+
+And it's just easy with [npm](http://npmjs.com):
+
+```sh
+npm i --save the-skipper
+```
+
