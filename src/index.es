@@ -26,16 +26,17 @@ export default class Skipper {
      * @param skipperErrorCode      Error code that you expect the Skipper instance to throw
      */
     constructor(skipperErrorCode = defaultSkipperErrorCode) {
-        this._lastMarker = new Symbol();
+        this._lastMarker = {};
         this._skipperErrorCode = skipperErrorCode;
     }
 
     /**
      * Put the marker before making request.
+     * @param           marker      Your custom marker (if you want) that defines moment when async request has been made.
      * @return {Number} Unique marker that defines moment when async request has been made.
      */
-    mark() {
-        return this._lastMarker = new Symbol();
+    mark(marker = {}) {
+        return this._lastMarker = marker;
     }
 
     /**
