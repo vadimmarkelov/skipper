@@ -1,6 +1,6 @@
 {
   "name": "the-skipper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Skipper will help you to skip/drop tasks that old and no longer expected to be performed.",
   "main": "lib/index.js",
   "scripts": {
